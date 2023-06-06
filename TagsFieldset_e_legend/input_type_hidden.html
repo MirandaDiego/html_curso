@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+<body>
+    <!--Method:post -> para mandar arquivos(jpg,etc) junto ao formulario-->
+    <!--SEMPREQ TEM UM ARQUIVO TIPO (FILE), É PRECISO COLOCAR MULTIPART...-->
+    <form method="get" action="blabla.bla" enctype="multipart/form-data">
+        <!--hidden: campo "escondido"-->
+        <input type="hidden" name="country" value="br">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label>
+            Nome : <br>
+            <!-- required: dado obrigatório  minleght: quant.letrasminimas-->
+            <input type="text" nome="name" required minlength="2">
+        </label><br>
+
+        <label>
+            Sobrenome : <br>
+            <input type="text" name="lastname" >
+        </label><br>
+
+<!--tipo file: usavel com method:post, acccept: tipo de dado permitido-->
+      <!--  <label>
+            foto : <br>
+            <input type="file" name="lastname" accept="image/*" (ou) accept="application/pdf">
+        </label><br>
+-->
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Nome da empresa: <br>
+            <input type="text" nome="companyname">
+        </label><br>
+
+        <label>
+            Cargo na empresa: <br>
+            <input type="text" name="companyjobtitle">
+        </label><br>
+    </fieldset>
+<br>
+        <input type="submit" value="cadastrar">
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 3rm;
+}
+
+.box{
+    font-size: 20em;
+
+}
+.box-interno{
+    /*em- 1em == 20px (herdado da classe pai)*/
+    /*rem = 1remX primeira unidade do corpo*/
+    width: 10em;
+    height: 10em;
+    background-color: aquamarine;
+}

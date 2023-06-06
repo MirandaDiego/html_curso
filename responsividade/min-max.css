@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+img{
+    width:  max(50%, 300px);
+    width: min(50%, 300px);
+
+}
+
+.container{
+    /*CALC: pegue 100% do espaço e diminua 20px*/
+    width: calc(100% -20px);
+    height: 200px;
+    background-color: blue;
+
+}

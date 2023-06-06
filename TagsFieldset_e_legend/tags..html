@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+<body>
+    <form method="post" action="blabla.bla">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label>
+            Nome : <br>
+            <!-- required: dado obrigatório  minleght: quant.letrasminimas-->
+            <input type="text" nome="name" required minlength="2">
+        </label><br>
+
+        <label>
+            Sobrenome : <br>
+            <input type="text" name="lastname" >
+        </label><br>
+
+        <label>
+            Idade : <br>
+            <!--step: incrementa e tem que ir apartir de(numero)-->
+            <!-- min: numero minimo , max: numero maximo-->
+            <input type="number" name="age" step="2" required>
+        </label><br>
+
+
+        <label>
+            Data de nascimento : <br>
+            <input type="date" name="bithdate" min="2023-06-01"required>
+        </label><br>
+
+        <label>
+            Email : <br>
+            <input type="text" name="email" 
+            pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" 
+            title="endereço de e-mail"required>
+        </label><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Nome da empresa: <br>
+            <input type="text" nome="companyname">
+        </label><br>
+
+        <label>
+            Cargo na empresa: <br>
+            <input type="text" name="companyjobtitle">
+        </label><br>
+    </fieldset>
+<br>
+        <input type="submit" value="cadastrar">
+
+
+
+    </form>
+    
+</body>
+</html>

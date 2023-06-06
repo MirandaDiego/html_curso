@@ -1,0 +1,11 @@
+.link2{
+    color: rgb(163, 48, 230);
+    font-size: 30px;
+}
+.link2:hover{
+    color: brown;
+
+}
+.link2:visited{
+    color: black;
+}

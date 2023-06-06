@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 18px;
+}
+
+p{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 12px;
+   
+
+
+}
+a{
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-shadow: 12px, 0px, 4px rgb(112, 42, 42);
+}

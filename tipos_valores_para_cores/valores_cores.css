@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color: #000029;
+    background-color: rgb(0, 255, 5);
+    background-color: blueviolet;
+}
+
+h1{
+    border: 2px solid black;
+    /*currentcolor: herda a cor das letras dentro da borda */
+    border: 2px solid currentColor;
+
+}
+
+

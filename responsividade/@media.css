@@ -1,0 +1,81 @@
+table, td{
+    border: 2px solid rgba(189, 100, 28, 0.87);
+}
+
+body{
+    background-color: black;
+    display: flex;
+}
+
+@media(min-width: 1000px){
+    body{
+        background-color: blue;
+    }
+    h1{
+        font-size: 70px;
+    }
+
+}
+
+@media(min-width: 700px) and (max-width: 1000px){
+    body{
+        background-color: purple;
+    }
+
+}
+
+@media (max-width: 600px){
+
+body{
+
+    background-color: rgba(75, 56, 4, 0.801);
+
+}
+h1{
+    font-size: 15px;
+}
+
+
+}
+/* botar uma condiçao caso a páginaseja printada: */
+@media only print{
+
+    h1{
+        /* O texto some quando a pagina quer ser imprimida: */
+        /*display:none*/
+        font-size: 70px;
+        font-weight: normal;
+    }
+    
+}
+
+/*aparecer somente na tela: */
+@media only screen {
+    h1{
+        display: none;
+    }
+    
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+/*ORIENTATION É BASEADO NO TAMANHO DA TELA E NAO NA POSIÇAO DO CELULAR*/
+/* LANDSCAPE: orientaçao está predominante orizontal*/
+@media(orientation: landscape){
+body{
+
+        flex-direction: row;
+
+}
+}
+/*PORTRAIT: orientação está predominantemente vertical*/
+@media(orientation: portrait){
+    body{
+        flex-direction: column ;;
+
+    }
+
+}

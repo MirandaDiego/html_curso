@@ -1,0 +1,53 @@
+
+
+
+/*aspect-radio 1/1: entrara somente quando a tela estiver no tamanha de um quadrado perfeito*/
+@media(aspect-ratio: 1/1) {
+    body{
+        background-color: brown;
+    }
+}
+@media(min-aspect-ratio: 2/1) {
+    body{
+        background-color: rgb(77, 165, 42);
+    }
+}
+@media(max-aspect-ratio: 1/2) {
+    body{
+        background-color: rgb(42, 81, 165);
+    }
+}
+
+/*FUNÇÃO VAR: */
+
+:root{
+    --bg-color: black;
+    --bg-second: #444;
+    --font-color: #fff;
+    --font-size-big: 25px;
+    --font-size-small: 15px;
+
+
+}
+
+body{
+    background-color: var(--bg-color);
+    font-size: var(--font-size-big);
+}
+h1{
+    color: var(--bg-second);
+}
+.container{
+    --verde: #00ff00;
+    /*quando nao encontrar a primeira, vai na segunda cor: */
+    background-color: var(--font-color, #f434);
+    background-color: var(--verde);
+    color: chartreuse;
+}
+
+
+@media(max-width:450px){
+    body{
+        font-size: var(--font-size-small);
+    }
+}

@@ -1,0 +1,35 @@
+
+
+
+body{
+    margin: 50px;
+    font-size: 15px;
+}
+table{
+
+    width: 700px;
+   
+}
+th, td{
+    border: 1px solid black;
+}
+table thead{
+    background-color: rgb(58, 226, 43);
+}
+table tbody{
+    background-color: rgb(160, 134, 95);
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+tbody tr:hover{
+    background-color: rgb(222, 222, 231);
+}
+tbody td{
+    border-bottom: 10px solid aqua;
+}
+/*apenas linhas pares :*/
+tbody tr:nth-child(even){
+    background-color: brown;
+}

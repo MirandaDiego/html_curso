@@ -1,0 +1,38 @@
+
+     img{
+        width: 600px;
+     }
+     li{
+        font-weight: bold;
+        color:rgb(251, 205, 255);
+     }
+     h1{
+        color:cornflowerblue;
+     }
+
+     #titulo, .texto{
+        color: blueviolet;
+        font-size: 32px;
+     }
+     .texto{   
+        width: 2;
+     }
+     ol li{
+        color: aliceblue;      /* entrando em oli -> li*/
+     }
+
+     div{
+        background-color: rgb(10, 96, 107);
+        width: 100px;  /* quadrado*/
+        height: 100px;               
+        border-radius: 59px;  /*transforma o quadrado em um circulo*/
+        border:3px solid darkgoldenrod;
+     }
+     #triangulo{
+        background-color: rgb(10, 96, 107);
+        width: 300px;  /* quadrado*/
+        height: 300px;               
+         /*transforma o quadrado em um circulo*/
+        border:3px solid darkgoldenrod;
+
+     }

@@ -1,0 +1,11 @@
+fieldset{
+    background-color: #eee;
+    margin-bottom: 20px;
+    border: 2px solid violet;
+}
+legend{
+    background-color: blueviolet;
+    color: #eee;
+    padding: 5px;
+}
+/* diego miranda duarte */ 

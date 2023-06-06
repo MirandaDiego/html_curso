@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background: blue;
+
+    background: linear-gradient(45deg, white, blue);  /*Direçao, segunda cor, terceira cor*/
+
+}

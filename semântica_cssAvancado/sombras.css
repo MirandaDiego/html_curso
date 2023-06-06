@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: goldenrod;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 10px 10px 5px #a8cf1a88;/*distancia horizontal, distancia vertical, quantidade de blu(esfumaçamento)*/
+    transition: all 1s linear;
+
+}
+.exemplo:hover{
+    width: 165px;
+    height: 165px;
+    background-color: greenyellow;
+
+}
+a{
+   color: black;
+   transition: all linear;
+}
+a:hover{
+    color: blueviolet;
+}

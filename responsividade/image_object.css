@@ -1,0 +1,13 @@
+img{
+    width: 500px;
+    width: 500px;
+    /*fill: imagem vai ser distorcida de acordo com o tmanho da tela*/
+    object-fit: fill;
+    /*contain: a imagem é diminuida, mantendo a porporçao e sem distorçoes */
+    object-fit: contain;
+    /*cover: mantem a proporçao ,porem corta a imagem para ajustar e nao distorcer*/
+    object-fit: cover;
+    /*none: mantem a imagem tamanho original, porem corta para caber*/
+    object-fit: none;
+   
+}

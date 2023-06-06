@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin: 0;
+}
+
+.box{
+    width: 50%;
+    height: 400px;
+    background-color: #999;
+    /*vh: medida que pega o "tamanho total da tela*/
+    height: 100vh;
+    /*largura disponivel na tela em (porcentagem)*/
+    height: 100vw;
+
+
+
+}
+.box-interno{
+    width: 50%;
+    background-color: #141111;
+    color: #dbd2d2;
+
+    /*preenche de acordo com a quantida de letras, so funciona com fontes mono_space*/
+    width: 7ch;
+
+}
