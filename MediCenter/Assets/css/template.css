@@ -200,6 +200,8 @@ justify-content: space-between;
     background-color: #39a9e1;
     margin-top: 10px;
 }
+
+
 /*Para agrupar as 4 imagens, uma do lado da outraem linhas de 2,coluna 2: */
 .flex{
 display: flex;
@@ -313,9 +315,61 @@ color: #ffffff;
     flex:1;
 }
 footer .widget_title_text{
-    color: white;
+    color: rgb(60, 221, 11);
 }
-.footer_copy{
+
+.social_icons{
+    display: flex;
+}
+.social_icons a {
+    margin-right: 10px;
+    height: 29px;
+    width: 29px;
+
+}
+
+#facebook {
+    background: url("../images/facebook.png");
+    width: 100px;
+    height: 100px;
+}
+
+#facebook:hover {
+    background: url("../images/facebook.png") 0 -29px;
+}
+
+#twitter {
+    background: url("../images/twitter.png") 0 0;
+}
+
+#twitter:hover {
+    background: url("../images/twitter.png") 0 -29px;
+}
+
+#googleplus {
+    background: url("../images/googleplus.png") 0 0;
+}
+
+#googleplus:hover {
+    background: url("../images/googleplus.png") 0 -29px;
+}
+
+#email {
+    background: url("../images/email.png") 0 0;
+}
+
+#email:hover {
+    background: url("../images/email.png") 0 -29px;
+}
+#instagram {
+    background: url("../images/instagram.png") 0 0;
+}
+
+#instagram:hover {
+    background: url("../images/instagram.png") 0 -29px;
+}
+
+.footer_copy{ 
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
