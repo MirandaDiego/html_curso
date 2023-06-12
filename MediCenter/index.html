@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediCenter</title>
     <link rel="stylesheet" href="Assets/css/template.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
 </head>
 
 <body>
@@ -19,6 +30,11 @@
             <div class="menu">
                 <!--Nav: menu da página-->
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">Home</a></li>
                         <li><a href="">Home</a></li>
@@ -27,7 +43,6 @@
                         <li><a href="">Home</a></li>
 
                     </ul>
-
                 </nav>
             </div>
         </div>
@@ -272,12 +287,11 @@
                             </div>
                             <!--Redes Sociais: -->
                             <div class="sociais_icons">
-                                <a  href="#"></a>
-                                <div id="Facebook"></div>
-                                <a id="Twitter" href="#"></a>
-                                <a id="googleplus" href="#"></a>
-                                <a id="email" href="#"></a>
-                                <a id="instagram" href="#"></a>
+                                <a id="Facebook" href="#"> <img src="Assets/images/facebook.png" alt=""></a>
+                                <a id="Twitter" href="#"> <img src="Assets/images/twitter.png" alt=""></a>
+                                <a id="googleplus" href="#"><img src="Assets/images/googleplus.png" alt=""></a>
+                                <a id="email" href="#"><img src="Assets/images/email.png" alt=""></a>
+                                <a id="instagram" href="#"><img src="Assets/images/instagram.png" alt=""></a>
                             </div>
                         </div>
                     </div>
