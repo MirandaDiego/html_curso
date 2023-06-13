@@ -311,7 +311,7 @@ color: #ffffff;
     flex:1;
 }
 footer .widget_title_text{
-    color: rgb(60, 221, 11);
+    color: rgb(165, 221, 11);
 }
 
 .social_icons{
@@ -319,9 +319,8 @@ footer .widget_title_text{
 }
 .social_icons a {
     margin-right: 10px;
-    height: 29px;
-    width: 29px;
-
+    width: 33px;
+    height: 33px;
 }
 
 #facebook img{
