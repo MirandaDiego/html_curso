@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(20, 163, 220), rgb(17, 54, 71));
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    min-height: 50px;
+    
+}
+.imagem-canto img{
+    height: 100%;
+    max-width: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+main{
+    width: 99vw;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+        
+
+}
+main img{
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+    
+ 
+  
+    
+}
+.primeira{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+   
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#input{
+    height: 44px;
+    width: 561px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding-inline-end: calc(var(--ntp-realbox-voice-icon-offset) + var(--ntp-realbox-icon-width) + var(--ntp-realbox-inner-icon-margin));
+    
+}
+#input :hover{
+    border: 1px solid #ccccccf3;
+    
+
+    
+    
+}
