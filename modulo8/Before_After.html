@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   body{
+    text-align: center;
+    background-image: url('63857d25e42acd6defc0412c.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+   span::before{
+    content: "--> ";
+   }
+  span{
+    background-color: blue;
+   }
+   span::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background-color: aquamarine;
+   }
+   span::after{
+    content: " <--";
+   }
+   .balao{
+    background-color: blue;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+   }
+   .balao::after{
+    content: "";
+
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 10px solid;
+    border-color: #0000ff transparent transparent transparent;
+   }
+   .rgba{
+    background-color: rgba(3,0,0,0.54);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   }
+
+    </style>
+</head>
+<body>
+    <span>texto 1</span>
+    <br><br>
+    <div class="balao">sexo?</div>
+    <br><br>
+    <div class="rgba">texto 2</div>
+    
+</body>
+</html>

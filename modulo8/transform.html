@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .div{
+            background-color: #ff000034;
+            width: 200px;
+            height: 200px;
+            /*centralizar no meio da tela:*/
+          margin: auto;
+            transform: scale(0.5, 1);
+            transform: skewX(20deg);
+            border-radius: 23%;
+
+            
+        }
+        .div2{
+            background-color: #5b6122;
+            width: 200px;
+            height: 200px;
+            /*centralizar no meio da tela:*/
+            margin:auto ;
+            transform: scale(0.5, 1);
+       
+        }
+        .b{
+            transform: rotate(35deg);
+        }
+        .b:hover{
+            transform: rotate(150deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="b">
+        <div class="div">texto 1</div>
+        <div class="div2">texto 2</div>
+   </div>
+
+    
+</body>
+</html>

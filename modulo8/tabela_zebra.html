@@ -1,0 +1,103 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela Zebra</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;     
+           
+   
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size:  1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th,td{
+            border: 1px solid  gray;
+            padding: 10px;
+
+        }
+        table{
+            margin: auto;
+
+        }
+        tbody  >  tr:nth-child(odd){
+            background-color: lightslategray;
+        }
+     
+     
+    </style>
+  
+</head>
+<body>
+    <table>
+        <caption>
+                Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>d</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+
+            </tr>
+            <tr>
+                <td>Beatriz Silva</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+
+            </tr>
+            <tr>
+                <td>Bruna Moreira</td>
+                <td>Barbie</td>
+                <td>Space Girl</td>
+                <td>As Branquelas</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Joaozin</td>
+                <td>Homem Aranha</td>
+                <td>Mulher gato</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Diego Miranda</td>
+                <td>Homem Aranha</td>
+                <td>Pineaple Express</td>
+                <td>Sexo</td>
+            </tr>
+            <tr>
+                <td>Bruno</td>
+                <td>Amor</td>
+                <td>Jeisse</td>
+                <td>Rambo</td>
+            </tr>
+        </tbody>
+    </table>
+
+            
+</body>
+</html>
